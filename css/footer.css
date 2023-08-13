@@ -1,6 +1,6 @@
 footer {
     background-color: #021635;
-    margin-top: -20px;
+    
 }
 footer ul {
     padding: 0;
@@ -41,6 +41,7 @@ footer ul {
     margin-bottom: -15px;
     width: 65px;
 }
+
 .footer_logo_items {
     display: flex;
     justify-content: space-between;

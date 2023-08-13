@@ -30,10 +30,14 @@
     .inputs_desctop {
         display: none;
     }
-.comments_title {
-    display: none;
-}
 
+    .comments_title {
+        display: none;
+    }
+
+    form {
+        background-image: url(/img/Group\ 2\ 1.png);
+    }
 }
 
 @media(min-width: 360px) {
@@ -58,7 +62,7 @@
     }
 
     .information_container_desktop {
-        display: block;
+        display: flex;
     }
 
     .flowers img:nth-child(2) {
@@ -86,6 +90,37 @@
         width: 255px;
         height: 292px;
     }
+
+    .inputs input {
+        width: 580px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .inputs input:nth-child(1) {
+        display: none;
+    }
+
+    .form_btn button {
+        width: 248px;
+        height: 68px;
+    }
+
+    .form_title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    form {
+        background-image: url(/img/Group\ 2\ 11.png);
+    }
+    .form_btn img {
+        display: none;
+    }
+    .form_btn {
+        padding: 20px 0 37px 0;
+        justify-content: center;
+    }
 }
 
 @media(max-width: 700px) {
@@ -97,12 +132,18 @@
         margin-top: -20px;
     }
 
-    
+
 }
 
 @media(min-width: 700px) {
     .header_desktop_row {
         display: flex;
+    }
+
+    .footer_information {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
 }
@@ -120,4 +161,28 @@
 
 }
 
-@media(min-width: 1300px) {}
+@media(min-width: 1300px) {
+    footer hr {
+        width: 1110px;
+    }
+
+    .footer_logo_items {
+        width: 1110px;
+    }
+
+    .footer_information {
+        width: 1110px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footerlogoitems {
+        display: flex;
+        justify-content: center;
+    }
+}

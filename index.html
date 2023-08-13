@@ -24,12 +24,12 @@
                 <img src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="">
             </a>
             <ul class="header_desktop_row">
-                <li><a href="">Main page</a></li>
-                <li><a href="">Benefits</a></li>
-                <li><a href="">Advantages</a></li>
-                <li><a href="">Reviews</a></li>
-                <li><a href="">Contacts</a></li>
-                <li><a href="">Order</a></li>
+                <li><a href="#">Main page</a></li>
+                <li><a href="#Benefits_desktop">Benefits</a></li>
+                <li><a href="#">Advantages</a></li>
+                <li><a href="#Reviews_desktop">Reviews</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Order</a></li>
                 <div class="languages">
                     <li><a href="">Ua</a> </li>
                     <li><a href="">Eng</a> </li>
@@ -55,12 +55,12 @@
 
         <nav>
             <ul class="header_modal">
-                <li><a href="">Main page</a></li>
-                <li><a href="">Benefits</a></li>
-                <li><a href="">Advantages</a></li>
-                <li><a href="">Reviews</a></li>
-                <li><a href="">Contacts</a></li>
-                <li><a href="">Order</a></li>
+                <li><a href="#">Main page</a></li>
+                <li><a href="#">Benefits</a></li>
+                <li><a href="#">Advantages</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Order</a></li>
                 <div class="languages">
                     <li><a href="">Ua</a> </li>
                     <li><a href="">Eng</a> </li>
@@ -103,18 +103,18 @@
 
     </header>
     <main>
-        <section class="information_container_desktop">
+        <section class="information_container_desktop" id="Benefits_desktop">
             <div class="desktop_box">
                 <div class="desktop_box_item">
                     <img src="./img/Vector1.png" alt="">
                     <img src="./img/Vector.png" alt="">
                 </div>
-               
+                <div class="box_hr"></div>
                 <div class="desktop_box_item">
                     <img src="./img/Vector3.png" alt="">
                     <img src="./img/Vector2.png" alt="">
                 </div>
-               
+                <div class="box_hr"></div>
                 <div class="desktop_box_item">
                     <img src="./img/Vector4.png" alt="">
                     <img src="./img/Vector5.png" alt="">
@@ -123,7 +123,7 @@
             </div>
         </section>
         <section>
-            <ul class="information_container">
+            <ul class="information_container" id="Benefits">
                 <li class="box">
                     <img class="header_box" src="./img/Vector1.png" alt="">
                     <img src="./img/Vector.png" alt="">
@@ -138,10 +138,25 @@
                 </li>
             </ul>
         </section>
-        <section class="comments">
+        <section class="comments" id="Reviews_desktop">
             <h2 class="comments_title">Reviews</h2>
             <div class="comments_box">
                 <img class="btn_left" src="./img/Group 10.png" alt="">
+                
+                <div class="comments_item">
+                    <h3>Sneakers are very
+                        comfortable and well
+                        painted, nothing has
+                        worn off in a year.</h3>
+                    <p class="date">25.11</p>
+                    <div class="person">
+                        <img src="./img/Ellipse 17.png" alt="">
+                        <div>
+                            <h4>John Teylor</h4>
+                            <p>With us from 2018</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="comments_item">
                     <h3>I'm very happy with <br> this color scheme. <br>
                         They match all my <br> clothes.</h3>
@@ -151,20 +166,6 @@
                         <div>
                             <h4>Elizabeth Garsia</h4>
                             <p>With us <br> from 2020</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="comments_item">
-                    <h3>Sneakers are very 
-                        comfortable and well 
-                        painted, nothing has 
-                        worn off in a year.</h3>
-                    <p class="date">25.11</p>
-                    <div class="person">
-                        <img src="./img/Ellipse 17.png" alt="">
-                        <div>
-                            <h4>John Teylor</h4>
-                            <p>With us from 2018</p>
                         </div>
                     </div>
                 </div>
@@ -191,12 +192,15 @@
     </main>
     <form>
         <h2 class="form_title">Order</h2>
-        <div class="inputs">
-            <div class="inputs_desctop"><input type="text" placeholder="Write your email"> <button>Confirm</button></div>
-            <input type="text" placeholder="Write your email">
-            <input type="text" placeholder="Your Country">
-            <input type="text" placeholder="Your City">
-            <input type="text" placeholder="Your Adress">
+        <div class="inputs_box">
+            <div class="inputs_desctop"><input type="text" placeholder="Write your email"> <button>Confirm</button>
+            </div>
+            <div class="inputs">
+                <input type="text" placeholder="Write your email">
+                <input type="text" placeholder="Your Country">
+                <input type="text" placeholder="Your City">
+                <input type="text" placeholder="Your Adress">
+            </div>
         </div>
         <div class="form_btn">
             <img src="./img/gfgjhjnybr 2.png" alt="">
@@ -206,17 +210,20 @@
 
     </form>
     <footer>
-        <ul class="footer_information_items">
-            <li><a href="">Have a question?</a></li>
-            <li><a href="">Have a proposal for cooperation?</a></li>
-            <li><a href="">Advertising questions?</a></li>
-        </ul>
-        <ul class="footer_social-networks_items">
-            <li><a href="">ColoRawe_support@gmail.com</a></li>
-            <li><a href="">ColoRawe_support@gmail.com</a></li>
-            <li><a href="">ColoRawe_Cooperation@gmail.com</a></li>
-        </ul>
+        <div class="footer_information">
+            <ul class="footer_information_items">
+                <li><a href="">Have a question?</a></li>
+                <li><a href="">Have a proposal for cooperation?</a></li>
+                <li><a href="">Advertising questions?</a></li>
+            </ul>
+            <ul class="footer_social-networks_items">
+                <li><a href="">ColoRawe_support@gmail.com</a></li>
+                <li><a href="">ColoRawe_support@gmail.com</a></li>
+                <li><a href="">ColoRawe_Cooperation@gmail.com</a></li>
+            </ul>
+        </div>
         <hr>
+
         <div class="footer_logo_items">
             <div>
                 <p>2022 ColoRawe @All rights reserved</p>
@@ -227,6 +234,7 @@
                 С&R
             </a>
         </div>
+
 
     </footer>
     <script defer src="./js/counter.js"></script>
