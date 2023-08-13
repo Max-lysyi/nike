@@ -3,8 +3,8 @@
     background-position: center;
     background-size: cover;
     padding: 80px;
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 
 
 }
@@ -55,6 +55,10 @@ justify-content: center;
     border-color: #8E32C6;
 }
 
+.box img:nth-child(1) {
+    margin-top: 15px;
+}
+
 .header_item {
     margin-top: 25px;
     margin-bottom: 12px;
@@ -68,7 +72,7 @@ justify-content: center;
     background-position: center;
     position: relative;
     padding-top: 1px;
-
+    position: relative;
 
 }
 
@@ -86,7 +90,7 @@ justify-content: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+padding-bottom: 120px;
 
 }
 
@@ -231,8 +235,8 @@ justify-content: center;
 .flowers {
     display: flex;
     justify-content: space-between;
-    z-index: 1;
-
+    position: absolute;
+    top: 180px;
 }
 
 form {
