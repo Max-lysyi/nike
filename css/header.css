@@ -39,7 +39,7 @@
 }
 
 .main_page_desktop {
-    background-image: url(/img/Group\ 37\ \(1\)\ 1.png);
+    background-image: url(/img/group3711.png);
     
     background-position: center;
     background-size: cover;
@@ -121,7 +121,7 @@ margin-bottom: 150px;
 
 .mobile_header {
     position: relative;
-    background-image: url(/img/Снимок\ экрана\ 2022-01-16\ 173350\ 2.png);
+    background-image: url(/img/screenshot2022-01-161733502.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,7 +183,7 @@ margin-bottom: 150px;
 
 .main_slogan {
     color: #FFF;
-    margin: -70px 0 -5px -38px;
+    margin: -60px 0 -5px -38px;
     font-family: Playfair Display;
     font-size: 36px;
     font-style: normal;

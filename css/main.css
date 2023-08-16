@@ -1,5 +1,5 @@
 .information_container_desktop {
-    background-image: url(/img/Group\ 8\ 1.png);
+    background-image: url(/img/group81.png);
     background-position: center;
     background-size: cover;
     padding: 80px;
@@ -34,12 +34,12 @@
 
 .information_container {
     background: #021635;
-
     margin: 0;
     padding: 50px 0 0 0;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: -10px;
+    padding-bottom: 100px;
+    gap: 96px;
 
 }
 
@@ -51,7 +51,6 @@
     width: 207.749px;
     height: 382px;
     border: solid;
-    margin-bottom: 96px;
     border-color: #8E32C6;
 }
 
@@ -66,7 +65,7 @@
 }
 
 .comments {
-    background-image: url(/img/Group\ 6\ 2.png);
+    background-image: url(/img/group62.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,7 +87,7 @@
 
 .comments_box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 padding-bottom: 120px;
 
@@ -97,13 +96,11 @@ padding-bottom: 120px;
 .comments_item:nth-child(2) {
 
     border-radius: 15px;
-    padding: 50px 13px 25px 12px;
     background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
     box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
     z-index: 2;
-    width: 255px;
     box-sizing: border-box;
-    height: 292px;
+
 }
 
 .comments_item:nth-child(2) h3 {
@@ -129,13 +126,10 @@ padding-bottom: 120px;
 
 .comments_item:nth-child(3) {
     border-radius: 15px;
-    padding: 50px 13px 25px 12px;
     background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
     z-index: 2;
-    width: 255px;
     box-sizing: border-box;
-    height: 292px;
 }
 
 .comments_item:nth-child(3) h3 {
@@ -162,13 +156,10 @@ padding-bottom: 120px;
 .comments_item:nth-child(4) {
 
     border-radius: 15px;
-    padding: 50px 13px 25px 12px;
     background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
     z-index: 2;
-    width: 255px;
     box-sizing: border-box;
-    height: 292px;
 
 }
 
