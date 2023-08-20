@@ -3,7 +3,7 @@
     height: 93px;
     align-items: center;
     width: 100%;
-    position: fixe;
+   position: fixed;
     z-index: 1000;
 
 }
@@ -39,8 +39,8 @@
 }
 
 .main_page_desktop {
-    background-image: url(/img/group3711.png);
-    
+    background-image: url(../img/group3711.png);
+    padding-top: 90px;
     background-position: center;
     background-size: cover;
     flex-direction: column;
@@ -121,7 +121,7 @@ margin-bottom: 150px;
 
 .mobile_header {
     position: relative;
-    background-image: url(/img/screenshot2022-01-161733502.png);
+    background-image: url(../img/screenshot2022-01-161733502.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

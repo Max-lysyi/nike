@@ -1,8 +1,6 @@
 @media(max-width: 360px) {
 
-    .flowers img:nth-child(2) {
-        display: block;
-    }
+   
 
 
 
@@ -34,13 +32,14 @@
         display: flex;
     }
 
-
-
     .flowers img:nth-child(2) {
-        display: none;
+      display: none;
+
     }
 
-    .flowers img:nth-child(1) {
+    
+
+    .flowers img {
         width: 340px;
         height: 380px;
 
@@ -123,6 +122,9 @@
         width: 171.919px;
         height: 196.865px;
     }
+    .flowers_desktop img{
+        display: none;
+      }
 }
 
 @media(min-width: 700px) {
